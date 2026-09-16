@@ -10,7 +10,7 @@
       "git:hexsha": "92bc79cb5f685e999ad131473168fc45215d12d9",
       "repolex:parseStatus": "parsed",
       "git:tagName": "v1.19.2",
-      "repolex:parsedAt": "2026-09-16T07:02:07.790130+00:00"
+      "repolex:parsedAt": "2026-09-16T07:06:25.666092+00:00"
     },
     {
       "@id": "https://repolex.ai/r/goccy/go-yaml/commit/3f98a4bfd67d1945c3fab40dd07a9871a3ba64e3",
