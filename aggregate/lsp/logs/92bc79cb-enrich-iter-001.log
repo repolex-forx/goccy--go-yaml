@@ -1,0 +1,15 @@
+[2026-09-16T07:10:39Z] === ENRICH ITERATION 1 START | repo=goccy/go-yaml sha=92bc79cb ===
+[2026-09-16T07:10:39Z] [iter=1] PHASE START: enrich repo=goccy/go-yaml sha=92bc79cb runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/92bc79cb-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/92bc79cb5f685e999ad131473168fc45215d12d9.nq.gz
+[2026-09-16T07:10:39Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-09-16T07:10:47Z] [iter=1] AST store loaded triples=1123083 load_secs=8 mem_mb=854 MB
+[2026-09-16T07:10:47Z] [iter=1] Step 2: Finding LSP targets mem_mb=854 MB
+[2026-09-16T07:10:48Z] [iter=1] LSP targets found call_sites=6784 imports=0 extends=0 implements=0 secs=1
+[2026-09-16T07:10:49Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=854 MB
+[2026-09-16T07:10:55Z] [iter=1] Position index built positions=73223 nodes_with_types=85498 secs=6 mem_mb=854 MB
+[2026-09-16T07:10:55Z] [iter=1] Step 3: Starting LSP resolution mem_mb=854 MB already_completed_types=[] already_completed_files=0
+[2026-09-16T07:10:55Z] [iter=1] Resolving target type target_type=call_site count=6784
+[2026-09-16T07:11:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.2 files_done=1 resolved=47 errors=114 current=docs/playground/eslint.config.js
+[2026-09-16T07:12:24Z] [iter=1] Target type resolved target_type=call_site resolved=81 errors=6960 secs=89 mem_mb=854 MB
+[2026-09-16T07:12:28Z] [iter=1] Step 5: Writing final enrichment file triples=3799
+[2026-09-16T07:12:28Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/92bc79cb5f685e999ad131473168fc45215d12d9.nq.gz size_kb=55
+[2026-09-16T07:12:28Z] [iter=1] PHASE END: enrich elapsed_s=109 elapsed_min=1.8 total_triples=3799
