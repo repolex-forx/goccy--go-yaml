@@ -1,0 +1,7 @@
+[2026-09-16T07:07:33Z] === AST ITERATION 1 START | repo=goccy/go-yaml sha=92bc79cb ===
+[2026-09-16T07:07:33Z] [iter=1] PHASE START: ast repo=goccy/go-yaml sha=92bc79cb
+[2026-09-16T07:07:33Z] [iter=1] Building AST aggregate chunks
+[2026-09-16T07:09:21Z] [iter=1] AST chunks built count=1 triples=1123083
+[2026-09-16T07:09:21Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/92bc79cb5f685e999ad131473168fc45215d12d9/.complete
+[2026-09-16T07:09:21Z] [iter=1] PHASE END: ast elapsed_s=107 elapsed_min=1.8
+[2026-09-16T07:09:21Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
